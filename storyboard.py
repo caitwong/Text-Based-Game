@@ -2,7 +2,7 @@ print("")
 print("------------------------")
 print("")
 print("Welcome to the Oregon Trail 2.0")
-path = input("Take the left of right path:  ")
+path = input("Take the left or right path:  ")
 
 if path == "right":
     print("Congrats! You lived.")
@@ -37,7 +37,7 @@ if path == "right":
                     print("")
                     print("------------------------")
                     print("")
-                    
+
                 else:
                     print("You have died of dysentary.")
                     print("")
